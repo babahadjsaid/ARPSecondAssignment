@@ -41,6 +41,7 @@ This window displays the position and the history of the circle, the history is 
 ![plot](./images/ProcessB.png)
 
 ## Folders tree:
+![plot](./images/tree.png)
 
 The repository is organized as follows:
 - the `src` folder contains all the source code.
@@ -51,7 +52,6 @@ After compiling the program, other two directories will be created:
 
 - the `bin` folder contains all the executable files
 - the `Logs` folder will contain all the log files.
-![plot](./images/tree.png)
 ## Processes
 The project is composed of 3 processes:
 - `master.cpp` is the first process to be executed and it takes care of launching all the other processes. In case one of them terminates unexpectedly it prints the status to the screen, when ctrl+c is pressed the master process will kill all the processes and terminate.
