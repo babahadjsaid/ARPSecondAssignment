@@ -6,7 +6,7 @@ echo "Compiling the Process A ...";
 g++ src/processA.cpp ./src/Myutilities.cpp -lncurses -lrt -lbmp -lm -o bin/ProcessA
 echo "Compiling the Process B ...";
 g++ src/processB.cpp ./src/Myutilities.cpp -lncurses -lrt -lbmp -lm -o bin/ProcessB
-echo "Compiling the main program ...";
+echo "Compiling the Master Process ...";
 g++ src/master.cpp ./src/Myutilities.cpp  -o bin/master
-echo "Runing the Master Process ...";
+echo "Start Runing ...";
 ./bin/master
