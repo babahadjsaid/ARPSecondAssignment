@@ -1,6 +1,7 @@
 # ARP Second Assignment
-Done By Baba HADJ SAID ID: 5413915
-and 
+Done By 
+- Baba HADJ SAID ID: 5413915
+-  
 ### User Manual:
 This repository contains our solution to **ARP Second Assignment**, and the following is a user manual.
 #### Requirements:
@@ -29,6 +30,7 @@ you will then be prompt with Two konsole windows, which are as follows:
 ##### Process A:
 This window consist of a 2-d view of the circle position and a button on the right:
 - **_Print_** This will generate an image that contains the circle in the position that the button was pressed.
+Other Keys:
 - **_Up Arrow_** & **_Down Arrow_** To move the circle up and down in the x-axis
 - **_Left Arrow_** & **_Right Arrow_** To move the circle left and right in the y-axis
 
