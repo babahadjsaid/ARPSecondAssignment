@@ -81,8 +81,10 @@ int main(int argc, char *argv[])
         else if(cmd == KEY_MOUSE) {
             if(getmouse(&event) == OK) {
                 if(check_button_pressed(print_btn, &event)) {
+                    char filename[20];
+                    sprintf(filename,"%s.png",ProcessNAme);
                     // save snapshot
-                    bmp_save(bmp, ProcessNAme);
+                    bmp_save(bmp, filename);
                 }
             }
         }

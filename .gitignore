@@ -1,0 +1,6 @@
+bin/*
+.data/*
+Logs/*
+src/test.cpp
+.vscode/*
+ProcessA.png
