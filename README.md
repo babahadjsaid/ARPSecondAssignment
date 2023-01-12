@@ -29,7 +29,7 @@ This command will set-up, Compile and Run the program.
 you will then be prompt with Two konsole windows, which are as follows:
 ##### Process A:
 This window consist of a 2-d view of the circle position and a button on the right:
-- **_Print_** This will generate an image that contains the circle in the position that the button was pressed.
+- **_Print_** This will generate an image that contains the circle in the position that the button was pressed.</br>
 Other Keys:
 - **_Up Arrow_** & **_Down Arrow_** To move the circle up and down in the x-axis
 - **_Left Arrow_** & **_Right Arrow_** To move the circle left and right in the y-axis
